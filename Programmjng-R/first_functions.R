@@ -23,6 +23,16 @@ colmean <- function (y){
 ## Adding some text here from Git-Hub
 
 
+f <- function(x){
+  g <- function(y){
+    y + z
+  }
+  z <- 4
+  x + g(x)
+}
+
+
+
 
 
 
